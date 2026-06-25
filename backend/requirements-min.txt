@@ -29,7 +29,7 @@ starsessions[redis]==2.2.1
 sqlalchemy==2.0.48
 aiosqlite==0.21.0
 psycopg[binary]==3.2.9
-alembic==1.18.4
+alembic==1.18.5
 peewee==3.19.0
 peewee-migrate==1.14.3
 
