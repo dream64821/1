@@ -272,7 +272,7 @@ jobs:
 
       - name: Dispatch Helm chart automation
         if: steps.token.outputs.present == 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.HELM_CHARTS_DISPATCH_TOKEN }}
           script: |
